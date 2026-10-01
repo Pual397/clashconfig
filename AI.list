@@ -1,34 +1,39 @@
 # --------------------------------------------------
 # AI & LLM Services Rules for Clash (Optimized)
-# Generated on 2026-01-28
-# UPDATED: 2026-08-20
+# Generated on 2026-10-01
+# UPDATED: 2026-10-01
 # --------------------------------------------------
 
 # > OpenAI / ChatGPT / Sora
+DOMAIN,openaicom-api-bdcpf8c6d2e9atf6.z01.azurefd.net
+DOMAIN,openaicomproductionae4b.blob.core.windows.net
+DOMAIN,production-openaicom-storage.azureedge.net
 DOMAIN-SUFFIX,ai.com
+DOMAIN-SUFFIX,azureedge.net
 DOMAIN-SUFFIX,chatgpt.com
+DOMAIN-SUFFIX,imgix.net
 DOMAIN-SUFFIX,livekit.cloud
 DOMAIN-SUFFIX,oaistatic.com
 DOMAIN-SUFFIX,oaiusercontent.com
 DOMAIN-SUFFIX,openai.com
-DOMAIN-SUFFIX,sora.com
-DOMAIN,openaicom-api-bdcpf8c6d2e9atf6.z01.azurefd.net
-DOMAIN,openaicomproductionae4b.blob.core.windows.net
-DOMAIN,production-openaicom-storage.azureedge.net
 DOMAIN-SUFFIX,openaiapi-site.azureedge.net
+DOMAIN-SUFFIX,sora.com
 
 # > Anthropic / Claude
+DOMAIN,cdn.usefathom.com
 DOMAIN-SUFFIX,anthropic.com
 DOMAIN-SUFFIX,claude.ai
 DOMAIN-SUFFIX,claude.com
 DOMAIN-SUFFIX,claudeusercontent.com
-DOMAIN,cdn.usefathom.com
 
-# > Google AI (Gemini / Bard / NotebookLM / DeepMind / Colab)
+# > Google AI (Gemini / Bard / NotebookLM / DeepMind / Colab / AI Studio)
 DOMAIN,ai.google.dev
 DOMAIN,aistudio.google.com
 DOMAIN,makersuite.google.com
+DOMAIN-SUFFIX,apis.google.com
 DOMAIN-SUFFIX,bard.google.com
+DOMAIN-SUFFIX,clients4.google.com
+DOMAIN-SUFFIX,clients6.google.com
 DOMAIN-SUFFIX,colab.google.com
 DOMAIN-SUFFIX,colab.research.google.com
 DOMAIN-SUFFIX,deepmind.com
@@ -36,11 +41,13 @@ DOMAIN-SUFFIX,deepmind.google
 DOMAIN-SUFFIX,developerprofiles.google.com
 DOMAIN-SUFFIX,gemini.google.com
 DOMAIN-SUFFIX,generativeai.google
+DOMAIN-SUFFIX,googleapis.com
+DOMAIN-SUFFIX,googleusercontent.com
 DOMAIN-SUFFIX,notebooklm.google
 DOMAIN-SUFFIX,notebooklm.google.com
 DOMAIN-SUFFIX,proactivebackend-pa.googleapis.com
 
-# > Microsoft Copilot / Bing AI
+# > Microsoft Copilot / Bing AI / GitHub Copilot
 DOMAIN,api.githubcopilot.com
 DOMAIN,api.msn.com
 DOMAIN,assets.msn.com
@@ -89,27 +96,44 @@ DOMAIN-SUFFIX,hf.co
 DOMAIN-SUFFIX,hf.space
 DOMAIN-SUFFIX,huggingface.co
 
-# > Other LLMs & Platforms (Groq, Together, Mistral, Poe, Midjourney, Manus, Dify, Meta)
+# > Meta AI / LLaMA
+DOMAIN,connect.facebook.net
+DOMAIN,meta-ohttp-config-prod.fastly-edge.com
+DOMAIN,meta-ohttp-relay-prod.fastly-edge.com
+DOMAIN-SUFFIX,atmeta.com
+DOMAIN-SUFFIX,facebook.com
+DOMAIN-SUFFIX,fbcdn.net
+DOMAIN-SUFFIX,llama.com
+DOMAIN-SUFFIX,llamameta.net
+DOMAIN-SUFFIX,meta.ai
+DOMAIN-SUFFIX,meta.com
+
+# > Muse AI
+DOMAIN,production.museai.com
+DOMAIN-SUFFIX,muse.ai
+
+# > Other AI Services (Groq, Together, Mistral, Poe, Midjourney, Manus, Dify)
 DOMAIN,api.groq.com
 DOMAIN,api.together.xyz
 DOMAIN,console.groq.com
 DOMAIN-SUFFIX,dify.ai
 DOMAIN-SUFFIX,manus.im
 DOMAIN-SUFFIX,manuscdn.com
-DOMAIN-SUFFIX,meta.ai
 DOMAIN-SUFFIX,midjourney.com
 DOMAIN-SUFFIX,mistral.ai
 DOMAIN-SUFFIX,poe.com
 DOMAIN-SUFFIX,poecdn.net
 
-# > Auth, Security & Telemetry for AI Platforms
+# > Common AI Infra, Auth & Telemetry
 DOMAIN,api.statsig.com
 DOMAIN,browser-intake-datadoghq.com
 DOMAIN,static.cloudflareinsights.com
 DOMAIN-SUFFIX,algolia.net
+DOMAIN-SUFFIX,amazonaws.com
 DOMAIN-SUFFIX,arkoselabs.com
 DOMAIN-SUFFIX,auth0.com
 DOMAIN-SUFFIX,client-api.arkoselabs.com
+DOMAIN-SUFFIX,cloudflare.com
 DOMAIN-SUFFIX,events.statsigapi.net
 DOMAIN-SUFFIX,featuregates.org
 DOMAIN-SUFFIX,identrust.com
@@ -120,3 +144,4 @@ DOMAIN-SUFFIX,segment.io
 DOMAIN-SUFFIX,sentry.io
 DOMAIN-SUFFIX,statsigapi.net
 DOMAIN-SUFFIX,stripe.com
+DOMAIN-SUFFIX,wp.com
